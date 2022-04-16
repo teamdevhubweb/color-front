@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.disable {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.allhistory{
+  text-align: center;
+  cursor: pointer;
+  /* height: 50px; */
+  align-items: center;
+  --bs-bg-opacity: 1;
+  background: #0d6efd;
+  
+}
+
+.allhistory p{
+ /* width: 100%; */
+  padding: 10px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.allhistory .active{
+  background-color:rgb(100, 149, 237);
+}
+
+
+.yourSelectt{
+  margin-top: 6px !important;
+  height: 12px;
+  width: 12px;
+  /* margin: auto; */
+  border-radius: 50%;
+  background: #008000;
+ 
+}
+
+.yourSelecta{
+  margin-top: 6px !important;
+  height: 12px;
+  width: 12px;
+  /* margin: auto; */
+  border-radius: 50%;
+  background: #0000ff;
+}
+
+.yourSelectB{
+  margin-top: 6px !important;
+  height: 12px;
+  width: 12px;
+  /* margin: auto; */
+  border-radius: 50%;
+  background: #ff0000;
+}
+
+.preWin{
+  /* background: #008000 !important; */
+  color: #008000 !important;
+}
+.preloss{
+  /* background: #ff0000 !important; */
+  color: #ff0000 !important;
+}
+.detailsIdClose{
+  display: flex;
+  justify-content: end;
+  padding-right: 50px;
+}
+.tieCount {
+  display: block;
+  float: right;
+  margin-bottom: 1px;
+  padding: 24px;
+}
+.baharCount {
+  display: block;
+  float: left;
+  margin-bottom: 1px;
+  padding: 24px;
+}
+
+.tieCount p{
+  color:#ffffff
+}
+.baharCount p{
+  color:#ffffff
+}
+
+.demoNone{
+  display: none;
+}
+
+
+.reportCard {
+  border: 1px solid blue;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.desB {
+  margin-left: 60px;
+}
+
+
+.roportsHeader {
+  padding: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
+.adminSider ul{
+height: 80vh;
+overflow: auto;
+}
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #72188c #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #72188c;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+  }
